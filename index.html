@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Rohan Bangash's portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body id="background">
+    <div class="nav-bar">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="portfolio-img.jpg" alt="my profile pic" />
+            </div>
+            <li><a href="#intro">Introduction</a></li> 
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#demo_skills">Accolades</a></li>
+            <li><a href="#contact-form-nav">Contact me</a></li>
+        </ul>
+        <div class="right-nav">
+            <h3 id="social-icon-header">connect with me!</h3>
+            <ul class="social-media">
+                
+                <li><a href="https://www.facebook.com/rohan.bangash.3/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li> 
+                <li><a href="https://www.instagram.com/rohan_bangash/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/rohan-bangash-b32711233/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="first-section">
+        <div class="div">
+            <h1 id="intro">Rohan Bangash's Portfolio</h1>
+            <p class="text">
+                Im currently an undergraduate student at York University, majoring in Information Technology. The most intriguing topics I have learned in my degree so far would be the aspects related to programming. I enjoy creating applications both backend and front end. I have used java to create many object-oriented projects throughtout my school career, as well as javascript/html/css to make more front end applications such as web-pages. I will showcase a variety of my work throughout this portfolio, to give you a clear image of my expertise and accomplishments.
+            </p>
+            <div class="bitmoji">
+                <img src="bitmoji.png" alt="sorry,image unavailabe" />
+            </div>
+        </div>
+    </div>
+    <div id="second-section">
+        <div class="div">
+            <h1 id="resume">My Resume</h1>
+            <p class="text">My resume summarizes some of my work experience, extracurricular activites/hobbies, as well as my strenghts and passions. </p>
+            <a href="./RESUME_GOOD_COPY.pdf" download='image' class="download-btn">
+                Download
+            </a>
+        </div>
+    </div>
+    <div id="third-section">
+        <div class="div">
+            <h1 id="demo_skills">My Projects and Acomplishments</h1>
+            <p class="text">
+                A short demonstration of my skills and accomplishments I have achieved over the years.
+            </p>
+            <h3 class="accomplishments-header"> graphical deisgn using java</h3>
+            <p> Below is a photo of an assignment I completed in my 2nd year of university. We were given the task of desiging and coding a clock, in the programming language java.</p>
+            <div class="clock">
+                <img src="clock.png" alt="sorry,image unavailabe" />
+            </div>
+            <h3 class="accomplishments-header">Entity-Relationship Diagram model representing the covid-19 immunization program</h3>
+            <p>This is an ER diagram I designed to model a realistic database that the government of Ontario could use to handle the provinces Immunization program during the covid-19 pandemic. </p>
+            <div class="ER">
+                <img src="ER_diagram.png" alt="sorry,image unavailabe" />
+            </div>
+            <h3 class="accomplishments-header">various searching algorithm outputs</h3>
+            <p>This image shows the output of the code of linear, binary, and random search algorithms. Throughout my undergraduate degree, I thoroughly enjoyed learning about data structures and algorithms, and they are an essential skill for any aspiring programmer like myself. </p>
+            <div class="alg">
+                <img src="binary_search.png" alt="sorry,image unavailabe" />
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-form">
+        <form id="my_form" >
+            <h1 id="contact-form-nav">Contact Form</h1>
+            <p id="contact-form-p">Fill in the information Below to Contact Me</p>
+            <p><input id="name" placeholder="Name" required></p>
+            <p><input id="email" placeholder="Email Address" type="email" required></p>
+            <textarea id="mail" placeholder="write your message here" rows="10" required></textarea>
+            <p><input id="button1" type="submit" value="Submit Form"> <span id="status"></span></p>
+        </form>
+    </div>
+    <footer id="footer">
+        <p id="text-footer">
+            All rights reserved©
+        </p>
+        <p id="contact-info">
+            rohanbangash26@gmail.com   
+        </p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
